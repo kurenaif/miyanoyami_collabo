@@ -1,18 +1,10 @@
 
 // var request = require('request');
 data = {
-    "detail": "__proto__",
-    "menu": "isDebug",
+    "detail": "detail",
+    "menu": "name",
     "name": true,
 }
-// 
-// request.post({
-//     uri: 'http://localhost:8080/',
-//     form: data,
-//     json: true
-// }, function (error, response, body) {
-//     console.log(body);
-// });
 
 var request = require('request');
 var options = {
