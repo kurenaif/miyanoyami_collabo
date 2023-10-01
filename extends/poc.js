@@ -24,3 +24,4 @@ class Mage extends Human {
 
 let mage = new Mage("kurenaif", 10, 100)
 mage.magic()
+mage.__proto__.__proto__.__proto__.kurenaif = "polluted";
