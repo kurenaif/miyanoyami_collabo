@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-  if (process.env.isDebug === true) {
+  if (process.env.IS_DEBUG === "true") {
     res.send("Congrats");
   } else {
     res.send('Hello World');
