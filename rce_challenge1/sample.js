@@ -3,7 +3,7 @@
 data = {
     "detail": "detail",
     "menu": "name",
-    "name": true,
+    "name": "kurenaif",
 }
 
 var request = require('request');

@@ -1,3 +1,6 @@
+rerun:
+	make rm && make build && make run
+
 build:
 	docker build . -t kurenaif/pprce-1
 
@@ -7,3 +10,5 @@ run:
 shell:
 	docker exec -it pprce-1 /bin/bash
 
+rm:
+	docker rm -f pprce-1
